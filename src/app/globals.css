@@ -3,6 +3,17 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --picton-blue-50: #e4f3ff;
+  --picton-blue-100: #c3e5ff;
+  --picton-blue-200: #85d0ff;
+  --picton-blue-300: #00bfff;
+  --picton-blue-400: #00ace7;
+  --picton-blue-500: #0093c6;
+  --picton-blue-600: #0078a1;
+  --picton-blue-700: #005b7b;
+  --picton-blue-800: #003e55;
+  --picton-blue-900: #002130;
+  --picton-blue-950: #00131d;
 }
 
 @theme inline {
@@ -10,12 +21,34 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --picton-blue-50: #e4f3ff;
+  --picton-blue-100: #c3e5ff;
+  --secondary: #85d0ff;
+  --primary: #00bfff;
+  --picton-blue-400: #00ace7;
+  --picton-blue-500: #0093c6;
+  --picton-blue-600: #0078a1;
+  --picton-blue-700: #005b7b;
+  --picton-blue-800: #003e55;
+  --picton-blue-900: #002130;
+  --picton-blue-950: #00131d;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --picton-blue-50: #e4f3ff;
+  --picton-blue-100: #c3e5ff;
+  --secondary: #85d0ff;
+  --picton-blue-300: #00bfff;
+  --picton-blue-400: #00ace7;
+  --primary: #0093c6;
+  --picton-blue-600: #0078a1;
+  --picton-blue-700: #005b7b;
+  --picton-blue-800: #003e55;
+  --picton-blue-900: #002130;
+  --picton-blue-950: #00131d;
   }
 }
 
